@@ -271,7 +271,7 @@ def main() -> None:
         """
     )
     parser.add_argument("filepath", type=str)
-
+    # TODO: investigate why rerun is sending what appears to be redundant args.
     parser.add_argument("--opened-application-id", type=str, help="optional recommended ID for the application")
     parser.add_argument("--application-id", type=str, help="optional recommended ID for the application")
     parser.add_argument("--opened-recording-id", type=str, help="optional recommended ID for the recording")
